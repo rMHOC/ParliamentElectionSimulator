@@ -10,6 +10,8 @@ class Constituency(object):
 
     def populate(self):
         population = []
+        for i in range(0,1000):
+            population.append(Voter(i))
 
 
 class Voter(object):
