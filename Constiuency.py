@@ -1,4 +1,4 @@
-import Voter
+
 
 
 class Constituency(object):
@@ -10,3 +10,11 @@ class Constituency(object):
 
     def populate(self):
         population = []
+
+
+class Voter(object):
+
+    def __init__(self, id):
+        self.id = id
+
+
