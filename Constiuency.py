@@ -44,6 +44,7 @@ class VoterGroup(Enum):
 #    youth = {"socialView": 0, "economicView": 0, "interventionism":0}
 
 Test_group1 = {"socialView": 0, "economicView": 0, "interventionism": 0}
-Test_group2 = {"socialView": 0, "economicView": 0, "interventionism": 0}
-Test_group3 = {"socialView": 0, "economicView": 0, "interventionism": 0}
-Test_group4 = {"socialView": 0, "economicView": 0, "interventionism": 0}
+Test_group2 = {"socialView": 25, "economicView": 25, "interventionism": 25}
+Test_group3 = {"socialView": 50, "economicView": 50, "interventionism": 50}
+Test_group4 = {"socialView": 75, "economicView": 75, "interventionism": 75}
+Test_group5 = {"socialView": 100, "economicView": 100, "interventionism": 100}
