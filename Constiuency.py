@@ -1,4 +1,4 @@
-
+import Voter
 
 
 class Constituency(object):
