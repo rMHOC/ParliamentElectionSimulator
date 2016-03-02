@@ -1,4 +1,4 @@
-
+from enum import Enum
 
 
 class Constituency(object):
@@ -20,3 +20,22 @@ class Voter(object):
         self.id = id
 
 
+class VoterGroup(Enum):
+    capitalist = []
+    communter = []
+    environmentalist = []
+    ethnic_minority = []
+    farmer = []
+    liberal = []
+    middle_class = []
+    motorist = []
+    patriot = []
+    poor = []
+    religious = []
+    retired = []
+    self_employed = []
+    socialist = []
+    state_employee = []
+    trade_unionist = []
+    wealthy = []
+    youth = []
